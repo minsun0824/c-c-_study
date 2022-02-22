@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <string.h>
+#include <iostream>
+#include <stdlib.h>
+using namespace std;
+
+class Student {
+private:
+	int* m_pid = nullptr;
+	string m_name = "";
+
+public:
+	Student(int, string);
+	~Student();
+	Student(const Student& rhs);
+	int Get_ID() { return *(this->m_pid); }
+	int* Get_ID_Addr() { return this->m_pid; }
+	string GetName() { return this->m_name; }
+	static int stdcnt;
+	
+};
+
+int Student::stdcnt = 0;
+Student::Student(int id, string name) : m_pid{ new int{id} }, m_name{ name }{}
+Student::~Student() { delete m_pid; }
+Student::Student(const Student& rhs) {
+	m_pid = new int(*rhs.m_pid);
+	m_name = rhs.m_name;
+}
+
+int main() {
+	int iNum1 = 10;
+	int iNum2{ iNum1 };
+	Student s1{ 201911021,"ms" };
+	Student s2(s1);
+	
+}

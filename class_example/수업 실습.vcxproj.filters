@@ -1,0 +1,548 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\중간고사">
+      <UniqueIdentifier>{3fc9f9b4-b4b5-4b22-9c59-0c9ea6bb867d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\중간고사\lec1">
+      <UniqueIdentifier>{6b7007f6-bb5f-4f88-9a0e-d97d4e266a2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\중간고사\lec2">
+      <UniqueIdentifier>{be5b2ea3-0b08-479a-a3e7-721beddf394e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\중간고사\lec3">
+      <UniqueIdentifier>{1a381bd6-5998-4873-9e86-223ad799bfa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\중간고사\lec4">
+      <UniqueIdentifier>{c0e62b88-3626-41cf-952e-f3696477aa7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\중간고사\lec5">
+      <UniqueIdentifier>{003e73df-67a7-445e-8abc-0ee5a37a6e76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\중간고사\lec6">
+      <UniqueIdentifier>{722b3c19-b17c-4749-8b28-d8b9aa2379a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\중간고사\lec7">
+      <UniqueIdentifier>{7e266cbd-8d43-451d-9638-f45bfe125e5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\중간고사\lec8">
+      <UniqueIdentifier>{53273f83-2877-41f3-8173-de3c0b237bb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\중간고사\lec9">
+      <UniqueIdentifier>{473dae18-23b8-4ca7-aab5-6633b10a9788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\기말고사">
+      <UniqueIdentifier>{e12845c0-a6a2-4c69-b7d1-b705adeedc2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\기말고사\lec12">
+      <UniqueIdentifier>{f5c6657f-6510-47a4-9ddc-b07b7e0c5ff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\기말고사\lec13">
+      <UniqueIdentifier>{6bc71bba-e32c-47e1-8c8f-455df05d35e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\기말고사\lec14">
+      <UniqueIdentifier>{47f0c023-1fef-47aa-beae-c5c1cedb8c7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\기말고사\lec11 상속1">
+      <UniqueIdentifier>{98103df7-1560-4161-b5e1-565efdc26a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\기말고사\lec15,16 STL">
+      <UniqueIdentifier>{3fb93ee8-02d1-4102-9531-31c7bc3e52ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\기말고사\lec 17 STL3">
+      <UniqueIdentifier>{02558e96-a087-4236-9a84-9e3c909f200f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\기말고사\lec 18 STL">
+      <UniqueIdentifier>{b916c5ff-2731-41d9-a23d-9d433ff61a1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\중간고사\test">
+      <UniqueIdentifier>{ae314592-945c-4576-9689-f4157f4a14b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\다시보기">
+      <UniqueIdentifier>{a18506d9-9e74-45e9-8d76-783aec784670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\기말고사\lec 19">
+      <UniqueIdentifier>{d316a903-3878-42e3-b2d3-8ee9fbf31b1c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lec1.cpp">
+      <Filter>소스 파일\중간고사\lec1</Filter>
+    </ClCompile>
+    <ClCompile Include="lec2-1.cpp">
+      <Filter>소스 파일\중간고사\lec2</Filter>
+    </ClCompile>
+    <ClCompile Include="lec2-2.cpp">
+      <Filter>소스 파일\중간고사\lec2</Filter>
+    </ClCompile>
+    <ClCompile Include="lec4-1.cpp">
+      <Filter>소스 파일\중간고사\lec4</Filter>
+    </ClCompile>
+    <ClCompile Include="lec4-2.cpp">
+      <Filter>소스 파일\중간고사\lec4</Filter>
+    </ClCompile>
+    <ClCompile Include="lec4-3.cpp">
+      <Filter>소스 파일\중간고사\lec4</Filter>
+    </ClCompile>
+    <ClCompile Include="lec4-4.cpp">
+      <Filter>소스 파일\중간고사\lec4</Filter>
+    </ClCompile>
+    <ClCompile Include="lec4-5.cpp">
+      <Filter>소스 파일\중간고사\lec4</Filter>
+    </ClCompile>
+    <ClCompile Include="lec5-1.cpp">
+      <Filter>소스 파일\중간고사\lec5</Filter>
+    </ClCompile>
+    <ClCompile Include="lec5-2.cpp">
+      <Filter>소스 파일\중간고사\lec5</Filter>
+    </ClCompile>
+    <ClCompile Include="lec6-1.cpp">
+      <Filter>소스 파일\중간고사\lec6</Filter>
+    </ClCompile>
+    <ClCompile Include="lec6-2.cpp">
+      <Filter>소스 파일\중간고사\lec6</Filter>
+    </ClCompile>
+    <ClCompile Include="lec6-3.cpp">
+      <Filter>소스 파일\중간고사\lec6</Filter>
+    </ClCompile>
+    <ClCompile Include="lec6-4.cpp">
+      <Filter>소스 파일\중간고사\lec6</Filter>
+    </ClCompile>
+    <ClCompile Include="lec7-1.cpp">
+      <Filter>소스 파일\중간고사\lec7</Filter>
+    </ClCompile>
+    <ClCompile Include="lec7-2.cpp">
+      <Filter>소스 파일\중간고사\lec7</Filter>
+    </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>소스 파일\중간고사\lec8</Filter>
+    </ClCompile>
+    <ClCompile Include="lec2-3.cpp">
+      <Filter>소스 파일\중간고사\lec2</Filter>
+    </ClCompile>
+    <ClCompile Include="multi.cpp">
+      <Filter>소스 파일\중간고사\lec4</Filter>
+    </ClCompile>
+    <ClCompile Include="소스.cpp">
+      <Filter>소스 파일\중간고사\lec4</Filter>
+    </ClCompile>
+    <ClCompile Include="test1.cpp">
+      <Filter>소스 파일\중간고사\lec5</Filter>
+    </ClCompile>
+    <ClCompile Include="lec6-5.cpp">
+      <Filter>소스 파일\중간고사\lec6</Filter>
+    </ClCompile>
+    <ClCompile Include="Teacher.cpp">
+      <Filter>소스 파일\중간고사\lec8</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecture.cpp">
+      <Filter>소스 파일\중간고사\lec8</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\중간고사\lec8</Filter>
+    </ClCompile>
+    <ClCompile Include="8전반적인 내용.cpp">
+      <Filter>소스 파일\중간고사\lec8</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>소스 파일\중간고사\lec8</Filter>
+    </ClCompile>
+    <ClCompile Include="소스1.cpp">
+      <Filter>소스 파일\중간고사\lec7</Filter>
+    </ClCompile>
+    <ClCompile Include="9-1.cpp">
+      <Filter>소스 파일\중간고사\lec9</Filter>
+    </ClCompile>
+    <ClCompile Include="9-2.cpp">
+      <Filter>소스 파일\중간고사\lec9</Filter>
+    </ClCompile>
+    <ClCompile Include="9-1 test.cpp">
+      <Filter>소스 파일\중간고사\lec9</Filter>
+    </ClCompile>
+    <ClCompile Include="10.09.cpp">
+      <Filter>소스 파일\중간고사\test</Filter>
+    </ClCompile>
+    <ClCompile Include="3-1.cpp">
+      <Filter>소스 파일\중간고사\lec3</Filter>
+    </ClCompile>
+    <ClCompile Include="10.10_질문.cpp">
+      <Filter>소스 파일\중간고사\test</Filter>
+    </ClCompile>
+    <ClCompile Include="10.10.cpp">
+      <Filter>소스 파일\중간고사\test</Filter>
+    </ClCompile>
+    <ClCompile Include="10.11.cpp">
+      <Filter>소스 파일\중간고사\test</Filter>
+    </ClCompile>
+    <ClCompile Include="10.12.cpp">
+      <Filter>소스 파일\중간고사\test</Filter>
+    </ClCompile>
+    <ClCompile Include="9-4.cpp">
+      <Filter>소스 파일\중간고사\lec9</Filter>
+    </ClCompile>
+    <ClCompile Include="10.13.cpp">
+      <Filter>소스 파일\중간고사\test</Filter>
+    </ClCompile>
+    <ClCompile Include="10.17.cpp">
+      <Filter>소스 파일\중간고사\test</Filter>
+    </ClCompile>
+    <ClCompile Include="10.19.cpp">
+      <Filter>소스 파일\중간고사\test</Filter>
+    </ClCompile>
+    <ClCompile Include="10.19_1.cpp">
+      <Filter>소스 파일\중간고사\test</Filter>
+    </ClCompile>
+    <ClCompile Include="11-1.cpp">
+      <Filter>소스 파일\기말고사\lec11 상속1</Filter>
+    </ClCompile>
+    <ClCompile Include="11-3.cpp">
+      <Filter>소스 파일\기말고사\lec11 상속1</Filter>
+    </ClCompile>
+    <ClCompile Include="11-4.cpp">
+      <Filter>소스 파일\기말고사\lec11 상속1</Filter>
+    </ClCompile>
+    <ClCompile Include="11-5-1.cpp">
+      <Filter>소스 파일\기말고사\lec11 상속1</Filter>
+    </ClCompile>
+    <ClCompile Include="11-6.cpp">
+      <Filter>소스 파일\기말고사\lec11 상속1</Filter>
+    </ClCompile>
+    <ClCompile Include="11-7.cpp">
+      <Filter>소스 파일\기말고사\lec11 상속1</Filter>
+    </ClCompile>
+    <ClCompile Include="11-8.cpp">
+      <Filter>소스 파일\기말고사\lec11 상속1</Filter>
+    </ClCompile>
+    <ClCompile Include="11-9.cpp">
+      <Filter>소스 파일\기말고사\lec11 상속1</Filter>
+    </ClCompile>
+    <ClCompile Include="11-10.cpp">
+      <Filter>소스 파일\기말고사\lec11 상속1</Filter>
+    </ClCompile>
+    <ClCompile Include="12-1.cpp">
+      <Filter>소스 파일\기말고사\lec12</Filter>
+    </ClCompile>
+    <ClCompile Include="12-2.cpp">
+      <Filter>소스 파일\기말고사\lec12</Filter>
+    </ClCompile>
+    <ClCompile Include="12-3cpp.cpp">
+      <Filter>소스 파일\기말고사\lec12</Filter>
+    </ClCompile>
+    <ClCompile Include="12-4.cpp">
+      <Filter>소스 파일\기말고사\lec12</Filter>
+    </ClCompile>
+    <ClCompile Include="13-1.cpp">
+      <Filter>소스 파일\기말고사\lec13</Filter>
+    </ClCompile>
+    <ClCompile Include="13-2.cpp">
+      <Filter>소스 파일\기말고사\lec13</Filter>
+    </ClCompile>
+    <ClCompile Include="13-3.cpp">
+      <Filter>소스 파일\기말고사\lec13</Filter>
+    </ClCompile>
+    <ClCompile Include="13-4.cpp">
+      <Filter>소스 파일\기말고사\lec13</Filter>
+    </ClCompile>
+    <ClCompile Include="13-5.cpp">
+      <Filter>소스 파일\기말고사\lec13</Filter>
+    </ClCompile>
+    <ClCompile Include="13-6.cpp">
+      <Filter>소스 파일\기말고사\lec13</Filter>
+    </ClCompile>
+    <ClCompile Include="13-7.cpp">
+      <Filter>소스 파일\기말고사\lec13</Filter>
+    </ClCompile>
+    <ClCompile Include="13-8.cpp">
+      <Filter>소스 파일\기말고사\lec13</Filter>
+    </ClCompile>
+    <ClCompile Include="14-1.cpp">
+      <Filter>소스 파일\기말고사\lec14</Filter>
+    </ClCompile>
+    <ClCompile Include="14-2.cpp">
+      <Filter>소스 파일\기말고사\lec14</Filter>
+    </ClCompile>
+    <ClCompile Include="14-3.cpp">
+      <Filter>소스 파일\기말고사\lec14</Filter>
+    </ClCompile>
+    <ClCompile Include="14-4.cpp">
+      <Filter>소스 파일\기말고사\lec14</Filter>
+    </ClCompile>
+    <ClCompile Include="15-1.cpp">
+      <Filter>소스 파일\기말고사\lec15,16 STL</Filter>
+    </ClCompile>
+    <ClCompile Include="15-2.cpp">
+      <Filter>소스 파일\기말고사\lec15,16 STL</Filter>
+    </ClCompile>
+    <ClCompile Include="15-3.cpp">
+      <Filter>소스 파일\기말고사\lec15,16 STL</Filter>
+    </ClCompile>
+    <ClCompile Include="15-4.cpp">
+      <Filter>소스 파일\기말고사\lec15,16 STL</Filter>
+    </ClCompile>
+    <ClCompile Include="15-5.cpp">
+      <Filter>소스 파일\기말고사\lec15,16 STL</Filter>
+    </ClCompile>
+    <ClCompile Include="15-6.cpp">
+      <Filter>소스 파일\기말고사\lec15,16 STL</Filter>
+    </ClCompile>
+    <ClCompile Include="15-7.cpp">
+      <Filter>소스 파일\기말고사\lec15,16 STL</Filter>
+    </ClCompile>
+    <ClCompile Include="11-11cpp.cpp">
+      <Filter>소스 파일\기말고사\lec11 상속1</Filter>
+    </ClCompile>
+    <ClCompile Include="11-test1.cpp">
+      <Filter>소스 파일\기말고사\lec11 상속1</Filter>
+    </ClCompile>
+    <ClCompile Include="11-test2.cpp">
+      <Filter>소스 파일\기말고사\lec11 상속1</Filter>
+    </ClCompile>
+    <ClCompile Include="11-test3.cpp">
+      <Filter>소스 파일\기말고사\lec11 상속1</Filter>
+    </ClCompile>
+    <ClCompile Include="11-test4.cpp">
+      <Filter>소스 파일\기말고사\lec11 상속1</Filter>
+    </ClCompile>
+    <ClCompile Include="11-test5.cpp">
+      <Filter>소스 파일\기말고사\lec11 상속1</Filter>
+    </ClCompile>
+    <ClCompile Include="11-test6.cpp">
+      <Filter>소스 파일\기말고사\lec11 상속1</Filter>
+    </ClCompile>
+    <ClCompile Include="13-test1.cpp">
+      <Filter>소스 파일\기말고사\lec13</Filter>
+    </ClCompile>
+    <ClCompile Include="13-test2.cpp">
+      <Filter>소스 파일\기말고사\lec13</Filter>
+    </ClCompile>
+    <ClCompile Include="13-test3.cpp">
+      <Filter>소스 파일\기말고사\lec13</Filter>
+    </ClCompile>
+    <ClCompile Include="13-test5.cpp">
+      <Filter>소스 파일\기말고사\lec13</Filter>
+    </ClCompile>
+    <ClCompile Include="13-test7.cpp">
+      <Filter>소스 파일\기말고사\lec13</Filter>
+    </ClCompile>
+    <ClCompile Include="14-test1.cpp">
+      <Filter>소스 파일\기말고사\lec14</Filter>
+    </ClCompile>
+    <ClCompile Include="14-test2.cpp">
+      <Filter>소스 파일\기말고사\lec14</Filter>
+    </ClCompile>
+    <ClCompile Include="15-test.cpp">
+      <Filter>소스 파일\기말고사\lec15,16 STL</Filter>
+    </ClCompile>
+    <ClCompile Include="15-test2.cpp">
+      <Filter>소스 파일\기말고사\lec15,16 STL</Filter>
+    </ClCompile>
+    <ClCompile Include="15-test3.cpp">
+      <Filter>소스 파일\기말고사\lec15,16 STL</Filter>
+    </ClCompile>
+    <ClCompile Include="15-test4.cpp">
+      <Filter>소스 파일\기말고사\lec15,16 STL</Filter>
+    </ClCompile>
+    <ClCompile Include="15-test5.cpp">
+      <Filter>소스 파일\기말고사\lec15,16 STL</Filter>
+    </ClCompile>
+    <ClCompile Include="15-test6.cpp">
+      <Filter>소스 파일\기말고사\lec15,16 STL</Filter>
+    </ClCompile>
+    <ClCompile Include="15-test7.cpp">
+      <Filter>소스 파일\기말고사\lec15,16 STL</Filter>
+    </ClCompile>
+    <ClCompile Include="17-1.cpp">
+      <Filter>소스 파일\기말고사\lec 17 STL3</Filter>
+    </ClCompile>
+    <ClCompile Include="17-2.cpp">
+      <Filter>소스 파일\기말고사\lec 17 STL3</Filter>
+    </ClCompile>
+    <ClCompile Include="17-3.cpp">
+      <Filter>소스 파일\기말고사\lec 17 STL3</Filter>
+    </ClCompile>
+    <ClCompile Include="17-4.cpp">
+      <Filter>소스 파일\기말고사\lec 17 STL3</Filter>
+    </ClCompile>
+    <ClCompile Include="17-5.cpp">
+      <Filter>소스 파일\기말고사\lec 17 STL3</Filter>
+    </ClCompile>
+    <ClCompile Include="17-6.cpp">
+      <Filter>소스 파일\기말고사\lec 17 STL3</Filter>
+    </ClCompile>
+    <ClCompile Include="17-7.cpp">
+      <Filter>소스 파일\기말고사\lec 17 STL3</Filter>
+    </ClCompile>
+    <ClCompile Include="17-8.cpp">
+      <Filter>소스 파일\기말고사\lec 17 STL3</Filter>
+    </ClCompile>
+    <ClCompile Include="17-9.cpp">
+      <Filter>소스 파일\기말고사\lec 17 STL3</Filter>
+    </ClCompile>
+    <ClCompile Include="17-11.cpp">
+      <Filter>소스 파일\기말고사\lec 17 STL3</Filter>
+    </ClCompile>
+    <ClCompile Include="17-13.cpp">
+      <Filter>소스 파일\기말고사\lec 17 STL3</Filter>
+    </ClCompile>
+    <ClCompile Include="17-15.cpp">
+      <Filter>소스 파일\기말고사\lec 17 STL3</Filter>
+    </ClCompile>
+    <ClCompile Include="18-1.cpp">
+      <Filter>소스 파일\기말고사\lec 18 STL</Filter>
+    </ClCompile>
+    <ClCompile Include="18-3.cpp">
+      <Filter>소스 파일\기말고사\lec 18 STL</Filter>
+    </ClCompile>
+    <ClCompile Include="18-4.cpp">
+      <Filter>소스 파일\기말고사\lec 18 STL</Filter>
+    </ClCompile>
+    <ClCompile Include="17-test1.cpp">
+      <Filter>소스 파일\기말고사\lec 17 STL3</Filter>
+    </ClCompile>
+    <ClCompile Include="17-test2.cpp">
+      <Filter>소스 파일\기말고사\lec 17 STL3</Filter>
+    </ClCompile>
+    <ClCompile Include="15-test8 map.cpp">
+      <Filter>소스 파일\기말고사\lec15,16 STL</Filter>
+    </ClCompile>
+    <ClCompile Include="15-test9.cpp">
+      <Filter>소스 파일\기말고사\lec15,16 STL</Filter>
+    </ClCompile>
+    <ClCompile Include="15-test10.cpp">
+      <Filter>소스 파일\기말고사\lec15,16 STL</Filter>
+    </ClCompile>
+    <ClCompile Include="15-test13.cpp">
+      <Filter>소스 파일\기말고사\lec15,16 STL</Filter>
+    </ClCompile>
+    <ClCompile Include="17-test3.cpp">
+      <Filter>소스 파일\기말고사\lec 17 STL3</Filter>
+    </ClCompile>
+    <ClCompile Include="17-test4.cpp">
+      <Filter>소스 파일\기말고사\lec 17 STL3</Filter>
+    </ClCompile>
+    <ClCompile Include="1.cpp">
+      <Filter>소스 파일\다시보기</Filter>
+    </ClCompile>
+    <ClCompile Include="13-test9.cpp">
+      <Filter>소스 파일\기말고사\lec13</Filter>
+    </ClCompile>
+    <ClCompile Include="2.cpp">
+      <Filter>소스 파일\다시보기</Filter>
+    </ClCompile>
+    <ClCompile Include="3.cpp">
+      <Filter>소스 파일\다시보기</Filter>
+    </ClCompile>
+    <ClCompile Include="13-test4.cpp">
+      <Filter>소스 파일\다시보기</Filter>
+    </ClCompile>
+    <ClCompile Include="13-test6.cpp">
+      <Filter>소스 파일\다시보기</Filter>
+    </ClCompile>
+    <ClCompile Include="13-test8.cpp">
+      <Filter>소스 파일\다시보기</Filter>
+    </ClCompile>
+    <ClCompile Include="14-test3.cpp">
+      <Filter>소스 파일\다시보기</Filter>
+    </ClCompile>
+    <ClCompile Include="15-test11.cpp">
+      <Filter>소스 파일\다시보기</Filter>
+    </ClCompile>
+    <ClCompile Include="15-test12.cpp">
+      <Filter>소스 파일\다시보기</Filter>
+    </ClCompile>
+    <ClCompile Include="17-10.cpp">
+      <Filter>소스 파일\다시보기</Filter>
+    </ClCompile>
+    <ClCompile Include="17-12.cpp">
+      <Filter>소스 파일\다시보기</Filter>
+    </ClCompile>
+    <ClCompile Include="17-14.cpp">
+      <Filter>소스 파일\다시보기</Filter>
+    </ClCompile>
+    <ClCompile Include="17-test5.cpp">
+      <Filter>소스 파일\기말고사\lec 17 STL3</Filter>
+    </ClCompile>
+    <ClCompile Include="17-test6.cpp">
+      <Filter>소스 파일\기말고사\lec 17 STL3</Filter>
+    </ClCompile>
+    <ClCompile Include="18-5.cpp">
+      <Filter>소스 파일\기말고사\lec 18 STL</Filter>
+    </ClCompile>
+    <ClCompile Include="18-2.cpp">
+      <Filter>소스 파일\다시보기</Filter>
+    </ClCompile>
+    <ClCompile Include="18-test1.cpp">
+      <Filter>소스 파일\기말고사\lec 18 STL</Filter>
+    </ClCompile>
+    <ClCompile Include="18-test2.cpp">
+      <Filter>소스 파일\기말고사\lec 18 STL</Filter>
+    </ClCompile>
+    <ClCompile Include="18-test3.cpp">
+      <Filter>소스 파일\기말고사\lec 18 STL</Filter>
+    </ClCompile>
+    <ClCompile Include="18-test4.cpp">
+      <Filter>소스 파일\기말고사\lec 18 STL</Filter>
+    </ClCompile>
+    <ClCompile Include="18-test5.cpp">
+      <Filter>소스 파일\기말고사\lec 18 STL</Filter>
+    </ClCompile>
+    <ClCompile Include="19-1.cpp">
+      <Filter>소스 파일\기말고사\lec 19</Filter>
+    </ClCompile>
+    <ClCompile Include="19-2.cpp">
+      <Filter>소스 파일\기말고사\lec 19</Filter>
+    </ClCompile>
+    <ClCompile Include="19-3.cpp">
+      <Filter>소스 파일\기말고사\lec 19</Filter>
+    </ClCompile>
+    <ClCompile Include="19-4.cpp">
+      <Filter>소스 파일\기말고사\lec 19</Filter>
+    </ClCompile>
+    <ClCompile Include="19-5.cpp">
+      <Filter>소스 파일\기말고사\lec 19</Filter>
+    </ClCompile>
+    <ClCompile Include="19-test2.cpp">
+      <Filter>소스 파일\다시보기</Filter>
+    </ClCompile>
+    <ClCompile Include="19-test1.cpp">
+      <Filter>소스 파일\다시보기</Filter>
+    </ClCompile>
+    <ClCompile Include="19-test3.cpp">
+      <Filter>소스 파일\다시보기</Filter>
+    </ClCompile>
+    <ClCompile Include="19-test4.cpp">
+      <Filter>소스 파일\다시보기</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="multi.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Student.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Teacher.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Lecture.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd">
+      <Filter>헤더 파일</Filter>
+    </None>
+  </ItemGroup>
+</Project>
